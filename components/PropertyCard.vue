@@ -5,7 +5,7 @@
         </NuxtLink>
         <p class="font-bold text-gray-500 mt-4 truncate w-full">{{ property.Address }}</p>
         <NuxtLink :to="`/properties/${property.Id}`">
-            <button class="btn flex items-center justify-center mx-auto my-4 px-4 py-2 text-white rounded hover:bg-blue-600">
+            <button class="btn flex items-center justify-center mx-auto my-4 px-4 py-2 text-white rounded hover:bg-emerald-700">
                 <i class="material-icons mr-2">visibility</i><span>View Property</span>
             </button>
         </NuxtLink>
