@@ -21,6 +21,7 @@
 
 <script setup>
 import { cleanString } from '~/utils/utils';
+
 const { property } = defineProps(['property']);
 </script>
 

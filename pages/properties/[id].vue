@@ -32,7 +32,3 @@ definePageMeta({
     layout: 'property'
 })
 </script>
-
-<style lang="scss" scoped>
-
-</style>

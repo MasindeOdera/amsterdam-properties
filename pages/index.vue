@@ -18,11 +18,3 @@
       </div>
     </div>
 </template>
-
-<script setup>
-// Not needed.
-</script>
-
-<style scoped>
-/* Not needed */
-</style>

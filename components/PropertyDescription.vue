@@ -8,7 +8,3 @@
 <script setup>
 const { property } = defineProps(['property']);
 </script>
-
-<style scoped>
-
-</style>
