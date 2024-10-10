@@ -15,7 +15,7 @@
             <slot />
          </div>
 
-         <footer class="container mx-auto p-4 flex justify-between border-t-2">
+         <footer class="container mx-auto p-4 flex items-center justify-center border-t-2">
             <a href="https://www.funda.nl/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/img/funda-logo.png" alt="Funda Logo" class="w-10 mr-6" />
             </a>
