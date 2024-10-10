@@ -14,6 +14,9 @@
           <li class="my-2"><span class="font-medium">Detailed View:</span> Click on any property card to see detailed information including price, location, and more.</li>
           <li class="my-2"><span class="font-medium">Responsive Design:</span> The application is optimized for mobile and desktop viewing.</li>
           <li class="my-2"><span class="font-medium">Easy Navigation:</span> Use the navigation bar and buttons to explore different parts of the app.</li>
+          <li class="my-2"><span class="font-medium">Error Handling:</span>If any errors occur while fetching property details or loading data, clear
+             and informative messages are displayed to the user, ensuring a smooth and predictable user experience. This includes showing loading states, 
+             error messages, and providing options to retry or navigate back to the home page.</li>
         </ul>
       </div>
     </div>
