@@ -4,6 +4,8 @@
 
 Amsterdam Properties is a web application built with Nuxt.js and Tailwind CSS. It leverages the Funda API to display a list of properties available in Amsterdam. The application provides users with detailed information on each property, including images, addresses, availability, and more. The project showcases a clean and responsive design with a focus on a great user experience.
 
+You can view the live project here: [Amsterdam Properties](https://amsterdam-properties.vercel.app/).
+
 ## Features
 
 - **Property Listings**: View a comprehensive list of properties available for sale in Amsterdam.
