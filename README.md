@@ -1,75 +1,84 @@
-# Nuxt 3 Minimal Starter
+# Amsterdam Properties - Nuxt App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Project Overview
 
-## Setup
+Amsterdam Properties is a web application built with Nuxt.js and Tailwind CSS. It leverages the Funda API to display a list of properties available in Amsterdam. The application provides users with detailed information on each property, including images, addresses, availability, and more. The project showcases a clean and responsive design with a focus on a great user experience.
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- **Property Listings**: View a comprehensive list of properties available for sale in Amsterdam.
+- **Property Details**: Click on any property to see detailed information, including address, images, and availability.
+- **Responsive Design**: Tailored for both desktop and mobile users with a mobile-first design approach.
 
-# pnpm
-pnpm install
+## Technologies Used
 
-# yarn
-yarn install
+- **Frontend**: Nuxt.js (Vue.js), Tailwind CSS
+- **API**: Funda API
+- **Deployment**: Vercel
 
-# bun
-bun install
-```
+## Getting Started
 
-## Development Server
+To get started with this project, follow the steps below to set up and run it locally on your machine.
 
-Start the development server on `http://localhost:3000`:
+### Prerequisites
 
-```bash
-# npm
-npm run dev
+Make sure you have the following installed:
 
-# pnpm
-pnpm run dev
+- [Node.js](https://nodejs.org/) (Version 14 or above)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (Package Manager)
 
-# yarn
-yarn dev
+### Setup Instructions
 
-# bun
-bun run dev
-```
+1. **Clone the repository**:
 
-## Production
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    ```
 
-Build the application for production:
+2. **Navigate to the project directory**:
 
-```bash
-# npm
-npm run build
+    ```bash
+    cd your-repo
+    ```
 
-# pnpm
-pnpm run build
+3. **Install dependencies**:
 
-# yarn
-yarn build
+    ```bash
+    npm install
+    ```
 
-# bun
-bun run build
-```
+4. **Create a `.env` file**:
 
-Locally preview production build:
+    This project uses environment variables to store sensitive information like API keys. To set up your environment variables:
 
-```bash
-# npm
-npm run preview
+    - Copy the contents of the `.env.example` file:
 
-# pnpm
-pnpm run preview
+      ```bash
+      cp .env.example .env
+      ```
 
-# yarn
-yarn preview
+    - Open the `.env` file and add your API keys and URLs. Replace `YOUR_API_KEY_HERE` and `YOUR_BASE_URL_HERE` with your actual values:
 
-# bun
-bun run preview
-```
+      ```
+      FUNDA_BASE_URL=https://partnerapi.funda.nl/feeds/Aanbod.svc/json/
+      FUNDA_API_KEY=YOUR_API_KEY_HERE
+      ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    > **Note**: Do not commit your `.env` file to version control as it contains sensitive information.
+
+5. **Run the application**:
+
+    ```bash
+    npm run dev
+    ```
+
+6. **Access the application**:
+
+    Once the server is up and running, you can access the application by navigating to `http://localhost:3000` in your web browser.
+
+### Deploying to Vercel (should you choose to)
+
+To deploy the application to Vercel:
+
+1. Ensure your `.env` variables are set up in Vercel. Go to the Vercel dashboard and add your environment variables as shown below:
+
