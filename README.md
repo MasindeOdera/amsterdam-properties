@@ -16,6 +16,7 @@ You can view the live project here: [Amsterdam Properties](https://amsterdam-pro
 
 - **Frontend**: Nuxt.js (Vue.js), Tailwind CSS
 - **API**: Funda API
+- **Icons**: [Material Icons](https://fonts.googleapis.com/icon?family=Material+Icons)
 - **Deployment**: Vercel
 
 ## Getting Started
@@ -27,7 +28,7 @@ To get started with this project, follow the steps below to set up and run it lo
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (Version 14 or above)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (Package Manager)
+- [npm](https://www.npmjs.com/) (Package Manager)
 
 ### Setup Instructions
 
@@ -82,5 +83,16 @@ Make sure you have the following installed:
 
 To deploy the application to Vercel:
 
-1. Ensure your `.env` variables are set up in Vercel. Go to the Vercel dashboard and add your environment variables as shown below:
+1. Ensure your `.env` variables are set up in Vercel. Go to the Vercel dashboard and add your environment variables, then click deploy.
+
+## What I Would Have Liked to Work On
+
+Given more time, I would have liked to implement the following additional features and improvements:
+
+- **Search Functionality**: Implement a search bar to allow users to search for properties based on keywords or location.
+- **Advanced Filtering**: Add more filtering options such as price range, property type, and availability to help users narrow down their search results.
+- **Pagination**: Improve the pagination feature for better navigation through large lists of properties.
+- **Map Integration**: Integrate a map feature using Google Maps or Mapbox to show the locations of properties visually.
+- **User Authentication**: Enable user login and registration, allowing users to save their favorite properties and manage their preferences.
+- **Improved Styling**: Further enhance the design of the project by utilizing animations and custom components for a more polished UI/UX experience.
 
