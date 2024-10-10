@@ -54,7 +54,7 @@ Make sure you have the following installed:
 
     This project uses environment variables to store sensitive information like API keys. To set up your environment variables:
 
-    - Create a `.env` file in the rot directory.
+    - Create a `.env` file in the root directory.
 
     - Open the `.env` file and add your API keys and URLs. Replace `YOUR_API_KEY_HERE` and `YOUR_BASE_URL_HERE` with your actual values:
 

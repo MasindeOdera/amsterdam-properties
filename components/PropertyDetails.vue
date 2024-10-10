@@ -13,8 +13,15 @@
             <p class="text-lg">Offered since: {{ property.AangebodenSindsTekst || 'N/A' }}</p>
             <p class="text-lg">CV: {{ property.Cv || 'N/A' }}</p>
             <p class="text-lg">Location: {{ property.Ligging || 'N/A' }}</p>
-            <p class="text-lg">Makelaar: {{ property.Makelaar || 'N/A' }}</p> <!-- maybe do something else with this -->
-            <p class="text-lg">Makelaar #: {{ property.MakelaarTelefoon || 'N/A' }}</p>
+            <p class="text-lg">Makelaar: {{ property.Makelaar || 'N/A' }}</p>
+            <div v-if="property.MakelaarTelefoon" class="flex items-center mt-4">
+                <button class="flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                    <a :href="`tel:${property.MakelaarTelefoon}`" class="flex items-center text-white no-underline">
+                        <i class="material-icons mr-2">call</i>
+                        <span>Call Makelaar</span>
+                    </a>
+                </button>
+            </div>
         </div>
     </div>
 </template>
