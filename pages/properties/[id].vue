@@ -7,6 +7,8 @@
         <div v-if="property" class="card">
             <PropertyDetails :property="property" />
             <PropertyDescription :property="property" />
+            <!-- Unfortunately this component is not ready -->>
+            <!-- <PropertyGallery :property="property" /> -->
         </div>
         <div v-else>
             <p>Loading property details...</p>

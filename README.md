@@ -92,4 +92,4 @@ Given more time, I would have liked to implement the following additional featur
 - **User Authentication**: Enable user login and registration, allowing users to save their favorite properties and manage their preferences.
 - **Improved Styling**: Further enhance the design of the project by utilizing animations and custom components for a more polished UI/UX experience.
 - **Improved Property List Loading**: Implementing an Intersection Observer for lazy loading images and elements could have been an effective way to improve the application's performance and enhance the user experience. This would have optimized Web Core Vitals and contributed to a smoother user journey.
-
+- **Unit Testing with Jest**: Implement unit tests to ensure code stability, verify component behavior, and catch potential issues before they reach production. Using Jest would provide comprehensive testing capabilities and improve the maintainability of the codebase.
